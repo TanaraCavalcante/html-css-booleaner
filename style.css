@@ -10,6 +10,12 @@ body{
 /*Intestazione*/
 
 header{
+    background-color: #6693fb;
     background-image: url(img/pattern.png);
+    height: 100px;
+    background-size: 200px;
 }
 
+header.img{
+    height: 80%px;
+}
