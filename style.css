@@ -58,7 +58,7 @@ p{
    margin: 0;
 }
 
-.testo{
+.paragrafo{
     text-align: justify;
 }
 
@@ -70,4 +70,21 @@ p{
 
 ul{
     padding-inline-start: 10px;
+}
+
+/*Steep 3 - Tabela*/
+
+thead{
+    background-color: rgb(5, 141, 209);
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+tbody{
+    background-color:rgb(138, 207, 242);
+}
+
+.trcolor{
+   background-color: white;
 }
