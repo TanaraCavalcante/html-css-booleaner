@@ -68,3 +68,6 @@ p{
 
 /* Steep 2 - Lista UL*/
 
+ul{
+    padding-inline-start: 10px;
+}
