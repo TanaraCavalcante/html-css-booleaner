@@ -1,5 +1,7 @@
 body{
     background-color: white;
+    width: 1200px;
+    margin: auto;
 }
 
 .container{
@@ -18,6 +20,16 @@ header{
 
 header.img{
    
+}
+
+/* Steep 1 - Notizie*/
+
+.notizia p {
+    color: rgb(64, 63, 63);
+}
+.sottotitolo{
+   font-size: 10px;
+   margin: 0;
 }
 
 
