@@ -74,8 +74,12 @@ ul{
 
 /*Steep 3 - Tabela*/
 
-th, td {
-    text-align: justify;
+table{
+    border-spacing: 0;
+}
+
+tr {
+    width: 60px ;
 }
 
 thead{
@@ -83,8 +87,8 @@ thead{
     color: white;
     font-size: 16px;
     font-weight: 300;
+    text-align: left;
 }
-
 
 tbody{
     background-color:rgb(138, 207, 242);
@@ -94,3 +98,13 @@ tbody{
 .trcolor{
    background-color: white;
 }
+
+.simples{
+    width: 25%;
+}
+
+.composta{
+    width: 50%;
+}
+
+/* Steep 4*/
