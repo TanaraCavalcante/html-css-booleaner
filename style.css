@@ -16,17 +16,25 @@ header{
     background-image: url(img/pattern.png);
     height: 100px;
     background-size: 200px;
+    position: relative;
 }
 
-header.img{
-   
+.logo{
+   width: 20%;
+   position: absolute;
+   bottom: 0%;
 }
 
 /* Steep 1 - Notizie*/
 
-.notizia p {
+.notizia{
     color: rgb(64, 63, 63);
 }
+
+.date{
+
+}
+
 .sottotitolo{
    font-size: 10px;
    margin: 0;
