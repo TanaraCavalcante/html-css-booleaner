@@ -74,6 +74,10 @@ ul{
 
 /*Steep 3 - Tabela*/
 
+th, td {
+    text-align: justify;
+}
+
 thead{
     background-color: rgb(5, 141, 209);
     color: white;
@@ -81,8 +85,10 @@ thead{
     font-weight: 300;
 }
 
+
 tbody{
     background-color:rgb(138, 207, 242);
+
 }
 
 .trcolor{
