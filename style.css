@@ -108,3 +108,44 @@ tbody{
 }
 
 /* Steep 5*/
+
+h3{
+    color: gray;
+}
+
+.monitor {
+    position: absolute;
+}
+
+.p-monitor:after{
+    content: '';
+    display: table;
+}
+
+.p-monitor{
+    color: white;
+    position: relative;
+    float: left;
+    font-size: 30px;
+    font-weight: 200;
+    left: 1%;
+}
+
+.graph{
+    position: absolute;
+}
+
+.p-graph:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.p-graph{
+    color: white;
+    position: relative;
+    float: left;
+    font-size: 30px;
+    font-weight: 200;
+    left: 1%;
+}
