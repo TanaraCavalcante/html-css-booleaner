@@ -109,43 +109,31 @@ tbody{
 
 /* Steep 5*/
 
-h3{
+h3 {
     color: gray;
 }
 
-.monitor {
-    position: absolute;
-}
-
-.p-monitor:after{
-    content: '';
-    display: table;
-}
-
-.p-monitor{
+.finale {
     color: white;
-    position: relative;
-    float: left;
-    font-size: 30px;
-    font-weight: 200;
-    left: 1%;
+    font-size: 25px;
+    padding-left: 5%;
+    padding-top: 5%;
+    
 }
 
-.graph{
-    position: absolute;
+.img1 {
+    background-image: url(img/monitor.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 312px;
+    height: 208px;
 }
 
-.p-graph:after{
-    clear: both;
-    content: '';
-    display: table;
+.img2 {
+    background-image: url(img/graph.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 312px;
+    height: 208px;
 }
 
-.p-graph{
-    color: white;
-    position: relative;
-    float: left;
-    font-size: 30px;
-    font-weight: 200;
-    left: 1%;
-}
